@@ -187,12 +187,12 @@ if (/^https:\/\/api\.revenuecat\.com\//.test(url)) {
             sheet_enabled: true,
             open_sheet_immediately: true,
             sheet_filters: [
-                { title: { en: "Goofy", vn: "Ngớ Ngẩn" }, filter_ids: ["okay_wig", "influencer", "looks_maxxing", "toothless", "bye_brows"] },
-                { title: { en: "Looks", vn: "Vẻ Ngoài" }, filter_ids: ["bowling_ball", "blonde_bleached", "beard", "bob_cut", "buns", "tatted", "mohawk", "braces", "bye_brows"] },
-                { title: { en: "Celebrate", vn: "Kỉ Niệm" }, filter_ids: ["slimed", "princess", "disco_lights", "cash_money", "happy_birthday"] },
-                { title: { en: "Cute", vn: "Đáng Yêu" }, filter_ids: ["cutesy", "sticker_face", "flower_crown", "love_bug"] },
-                { title: { en: "Costumes", vn: "Trang Phục" }, filter_ids: ["wedding", "cowboy_cowgirl", "giraffe", "clown"] },
-                { title: { en: "Holidays", vn: "Ngày Lễ" }, filter_ids: ["easter_bunney_cutout", "easter_chick_cutout", "bearded", "leprechaun", "lucky_face", "sweet_hearts", "elf_cutout", "santa_cutout", "frosty"] }
+                { title: { en: "Ngớ Ngẩn" }, filter_ids: ["okay_wig", "influencer", "looks_maxxing", "toothless", "bye_brows"] },
+                { title: { en: "Cái Nhìn" }, filter_ids: ["bowling_ball", "blonde_bleached", "beard", "bob_cut", "buns", "tatted", "mohawk", "braces", "bye_brows"] },
+                { title: { en: "Kỉ Niệm" }, filter_ids: ["slimed", "princess", "disco_lights", "cash_money", "happy_birthday"] },
+                { title: { en: "Đáng Yêu" }, filter_ids: ["cutesy", "sticker_face", "flower_crown", "love_bug"] },
+                { title: { en: "Trang Phục" }, filter_ids: ["wedding", "cowboy_cowgirl", "giraffe", "clown"] },
+                { title: { en: "Ngày Lễ" }, filter_ids: ["easter_bunney_cutout", "easter_chick_cutout", "bearded", "leprechaun", "lucky_face", "sweet_hearts", "elf_cutout", "santa_cutout", "frosty"] }
             ],
             picker_filters: [
                 "okay_wig", "influencer", "looks_maxxing", "toothless", "bye_brows",
@@ -327,7 +327,7 @@ if (/^https:\/\/api\.revenuecat\.com\//.test(url)) {
           widget_frame_event: JSON.stringify({
               uid: "infinity",
               // url: "https://i.ibb.co/RTm5P1n9/kitty-1.png",
-              url: "https://i.ibb.co/RTm5P1n9/kitty-1.png",
+              url: "https://i.ibb.co/Cpj7DVg2/anhtu4n-widget-cb007bbd32c2.png",
               use_local_time_zone: true,
               placement: "below",
               start_at: "2020-01-01T00:00:00",
