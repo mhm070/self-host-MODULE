@@ -8,7 +8,7 @@ user-agent = Locket/1.0.0 (iPhone; iOS 26.3; Scale/3.00)
 [Script]
 revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://gist.githubusercontent.com/mhm070/5490a103dd7dadb54a92a3feaca74b03/raw/a3d556a0b6a8811ae851d094b7bffdebb718c443/forceGold.js, requires-body=true, max-size=-1, timeout=60
 deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://gist.githubusercontent.com/mhm070/5490a103dd7dadb54a92a3feaca74b03/raw/a3d556a0b6a8811ae851d094b7bffdebb718c443/locketheader.js, timeout=60
-locket_rc = type=http-response, pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/locket-4252a\/.+, script-path=https://gist.githubusercontent.com/mhm070/5490a103dd7dadb54a92a3feaca74b03/raw/a3d556a0b6a8811ae851d094b7bffdebb718c443/forceGold.js, requires-body=true, max-size=-1, timeout=60
+locket_rc = type=http-response, pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/locket-4252a\/.+, script-path=https://gist.githubusercontent.com/mhm070/5490a103dd7dadb54a92a3feaca74b03/raw/forceGold3.0.js, requires-body=true, max-size=-1, timeout=60
 
 locket_caption_post16 = type=http-request, pattern=^https:\/\/(api\.locketcamera\.com|us-central1-locket-4252a\.cloudfunctions\.net)\/postMomentV2(?:\?.*)?$, script-path=https://gist.githubusercontent.com/mhm070/5490a103dd7dadb54a92a3feaca74b03/raw/a3d556a0b6a8811ae851d094b7bffdebb718c443/endpoint_captionpost.js, requires-body=true, max-size=-1, timeout=60
 
