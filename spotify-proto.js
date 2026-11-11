@@ -56,7 +56,7 @@ function processMapObj(accountAttributesMapObj){
     accountAttributesMapObj['can_use_superbird'] = {boolValue : true};
     accountAttributesMapObj['jam-social-session'] = {stringValue : 'EXPANDED'};
     accountAttributesMapObj['offline'] = {boolValue : true};
-    accountAttributesMapObj['audio-quality'] = {stringValue : '1'};
+    accountAttributesMapObj['audio-quality'] = {stringValue : '0'};
     accountAttributesMapObj['shuffle-algorithm'] = {stringValue : 'RANDOM'};
     accountAttributesMapObj['is-thalia'] = {boolValue : true};
     accountAttributesMapObj['shuffle'] = {boolValue : true};
@@ -66,7 +66,7 @@ function processMapObj(accountAttributesMapObj){
     accountAttributesMapObj['libspotify'] = {boolValue : true};
     accountAttributesMapObj['high-bitrate'] = {boolValue : true};
     accountAttributesMapObj['unrestricted'] = {boolValue : false};
-    accountAttributesMapObj['catalogue'] = {stringValue : 'premium'};
+    accountAttributesMapObj['catalogue'] = {stringValue : 'free'};
     accountAttributesMapObj['your-library-tags'] = {boolValue : true};
     accountAttributesMapObj['ads'] = {boolValue : false};
     accountAttributesMapObj['on-demand'] = {boolValue : false};
@@ -79,7 +79,7 @@ function processMapObj(accountAttributesMapObj){
     accountAttributesMapObj['lyrics-offline'] = {boolValue : true};
     // accountAttributesMapObj['financial-product'] = {stringValue : 'pr:premium,tc:0,rt:v2_US_default_epay-digital-10-USD-1m_10.0_USD_default'};
     accountAttributesMapObj['financial-product'] = {stringValue : 'pr:premium,tc:0'};
-    accountAttributesMapObj['streaming-rules'] = {stringValue : 'on-demand'};
+    accountAttributesMapObj['streaming-rules'] = {stringValue : ''};
     accountAttributesMapObj['mixing-tools'] = {stringValue : 'EDIT'};
     accountAttributesMapObj['mobile'] = {boolValue : true};
     accountAttributesMapObj['player-license'] = {stringValue : 'premium'};
