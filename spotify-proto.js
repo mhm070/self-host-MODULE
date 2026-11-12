@@ -59,7 +59,7 @@ function processMapObj(accountAttributesMapObj){
     accountAttributesMapObj['audio-quality'] = {stringValue : '0'};
     accountAttributesMapObj['shuffle-algorithm'] = {stringValue : 'RANDOM'};
     accountAttributesMapObj['is-thalia'] = {boolValue : true};
-    accountAttributesMapObj['shuffle'] = {boolValue : true};
+    accountAttributesMapObj['shuffle'] = {boolValue : false};
     accountAttributesMapObj['is-pigeon'] = {boolValue : true};
     // 主页右下角的会员广告tab
     accountAttributesMapObj['nft-disabled'] = {stringValue : '1'};
@@ -69,7 +69,7 @@ function processMapObj(accountAttributesMapObj){
     accountAttributesMapObj['catalogue'] = {stringValue : 'free'};
     accountAttributesMapObj['your-library-tags'] = {boolValue : true};
     accountAttributesMapObj['ads'] = {boolValue : false};
-    accountAttributesMapObj['on-demand'] = {boolValue : false};
+    accountAttributesMapObj['on-demand'] = {boolValue : true};
     accountAttributesMapObj['name'] = {stringValue : 'Spotify Premium'};
     accountAttributesMapObj['loudness-levels'] = {stringValue : '1:-5.0,0.0,3.0:-2.0'};
     accountAttributesMapObj['product-expiry'] = {stringValue : endDateStr};
@@ -79,7 +79,7 @@ function processMapObj(accountAttributesMapObj){
     accountAttributesMapObj['lyrics-offline'] = {boolValue : true};
     // accountAttributesMapObj['financial-product'] = {stringValue : 'pr:premium,tc:0,rt:v2_US_default_epay-digital-10-USD-1m_10.0_USD_default'};
     accountAttributesMapObj['financial-product'] = {stringValue : 'pr:premium,tc:0'};
-    accountAttributesMapObj['streaming-rules'] = {stringValue : ''};
+    accountAttributesMapObj['streaming-rules'] = {stringValue : 'shuffle-restricted'};
     accountAttributesMapObj['mixing-tools'] = {stringValue : 'EDIT'};
     accountAttributesMapObj['mobile'] = {boolValue : true};
     accountAttributesMapObj['player-license'] = {stringValue : 'premium'};
